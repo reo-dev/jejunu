@@ -37,3 +37,14 @@ a {
         width: 100%;
     }
 }
+
+img{
+    height: 300;
+    width: 150;
+}
+
+.notice{
+    text-align: right;
+    font-size: 30px;
+
+}
