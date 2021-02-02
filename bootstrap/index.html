@@ -5,6 +5,8 @@
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
+    <script src="https://kit.fontawesome.com/fd06401b6a.js" crossorigin="anonymous"></script>
+    <script src="./js/menubar.js" defer></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
@@ -19,13 +21,21 @@
     <br>
     <!--섹션 1 메뉴 바 -->
     <nav class="navbar">
+        <div class="navbar__logo">
+            <a href="http://www.jejunu.ac.kr/main"><img src="img/Screenshot from 2021-02-02 20-26-29.png" class="logoImg"></a>
+        </div>
+
         <ul class="navbar__menu">
-            <li><a href="">입학 환영사</a></li>
-            <li><a href="">학사 가이드</a></li>
-            <li><a href="">슬기로운 제주생활</a></li>
-            <li><a href="">캠퍼스 안내</a></li>
-            <li><a href="">서비스 바로가기</a></li>
+            <li><a href="#">입학 환영사</a></li>
+            <li><a href="#">학사 가이드</a></li>
+            <li><a href="#">슬기로운 제주생활</a></li>
+            <li><a href="#">캠퍼스 안내</a></li>
+            <li><a href="#">서비스 바로가기</a></li>
         </ul>
+        
+        <a href="#" class="navbar__togglebutton">
+            <i class="fas fa-bars"></i>
+        </a>
     </nav>
 
     <!--섹션 2 입학 환영 비디오-->
