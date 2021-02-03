@@ -34,7 +34,7 @@ a, a:hover, a:link, a:visited {
 .navbar__togglebutton {
     position: absolute;
     right: 32px;
-    top: 175px;
+    top: 50px;
     font-size: 30px;
     display: none;
 }
@@ -50,12 +50,8 @@ img {
 }
 
 #welcome {
-    display: flex;
-    flex-direction: column;
-}
-
-#welcome > span {
-    font-size: 2em;
+    padding: 10rem 0;
+    background-color: gray;
 }
 
 .video_content { 
@@ -108,6 +104,10 @@ img {
 .links li a { display:block; }
 .links li a img { width:100%; }
 
+.row-fluid {
+    padding: 10rem 0;
+}
+
 
     
 @media screen and (max-width: 960px) {
@@ -118,10 +118,11 @@ img {
     }
 
     .navbar__logo {
-        width: auto; 
+        /* width: auto; 
         height: auto;
         max-width: 180px;
-        max-height: 180px;
+        max-height: 180px; */
+        display: none;
     }
 
     .navbar__menu {
