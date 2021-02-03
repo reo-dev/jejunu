@@ -103,12 +103,6 @@ img {
 }
 .links li a { display:block; }
 .links li a img { width:100%; }
-
-.row-fluid {
-    padding: 10rem 0;
-}
-
-
     
 @media screen and (max-width: 960px) {
     .navbar {
