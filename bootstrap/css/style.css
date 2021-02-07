@@ -14,7 +14,7 @@ a, a:hover, a:link, a:visited {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 8px 12px;
+    padding: 20px 12px;
     justify-content: center;
 }
 
@@ -34,7 +34,7 @@ a, a:hover, a:link, a:visited {
 .navbar__togglebutton {
     position: absolute;
     right: 32px;
-    top: 50px;
+    top: 5px;
     font-size: 30px;
     display: none;
 }
@@ -44,13 +44,8 @@ img {
     width: 150;
 }
 
-.notice {
-    text-align: right;
-    font-size: 30px;   
-}
-
 #welcome {
-    padding: 10rem 0;
+    padding-bottom: 10rem;
     background-color: gray;
 }
 
@@ -108,15 +103,16 @@ img {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding: 8px 24px;
+        position: relative;
+        padding: 10px 0px;
+        padding-top: 0px;
     }
 
     .navbar__logo {
-        /* width: auto; 
-        height: auto;
-        max-width: 180px;
-        max-height: 180px; */
-        display: none;
+        display: block;
+        background-color: #FCF6F5;
+        height: 50px;
+        width: 100%;
     }
 
     .navbar__menu {
