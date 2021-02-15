@@ -150,3 +150,8 @@ img {
         padding-bottom: 30px;
     }
 }
+
+.library {
+    width: 1080px;
+    height: 10800px;
+}
