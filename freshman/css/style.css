@@ -156,6 +156,8 @@ a:visited {
 
     .sec2{
         padding-bottom: 60px;
+        padding-top: 10px;
+
         font-size: 30px;
     }
 
@@ -177,6 +179,8 @@ a:visited {
 
     .sec2{
         padding-bottom: 60px;
+        padding-top: 10px;
+
         font-size: 20px;
     }
 
@@ -197,6 +201,8 @@ a:visited {
 
     .sec2{
         padding-bottom: 60px;
+        padding-top: 10px;
+
         font-size: 10px;
     }
 
@@ -254,6 +260,7 @@ a:visited {
 
     .sec2{
         padding-bottom: 60px;
+        padding-top: 10px;
         font-size: 5px;
     }
 
