@@ -25,10 +25,10 @@ a, a:hover, a:link, a:visited {
 }
 
 .navbar__menu li {
-    padding: 20px 70px;
+    padding: 1rem 4rem;
     background-color: #FCF6F5;
     border: 1px solid white;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -83,6 +83,7 @@ img {
     list-style: none;
     width: 100%;
 }
+
 .links { 
     padding:72px 0 92px; 
     padding-right: 15px;
@@ -112,6 +113,18 @@ img {
     height: auto;
 }
 
+@media screen and (max-width: 1180px) {
+    .navbar__menu li {
+        font-size: 1rem;
+        padding: 0.5rem 4rem;
+    }
+
+    #lastSection{ 
+        padding: 30px 0px; 
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .navbar {
         flex-direction: column;
@@ -139,6 +152,7 @@ img {
         text-align: center;
         padding: 10px 0px;
         margin-right: 50px;
+        font-size: 1.7rem;
     }
 
     .navbar__togglebutton {
@@ -154,5 +168,11 @@ img {
         width: auto;
         height: auto;
         padding-bottom: 30px;
+    }
+
+    #lastSection{ 
+        padding: 10px 0px;
+        padding-left: 5px;
+        font-size: 0.5rem;
     }
 }
