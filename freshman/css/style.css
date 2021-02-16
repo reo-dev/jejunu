@@ -15,6 +15,17 @@ body {
     font-family: 'GmarketSansLight';
 }
 
+#welcome {
+    padding-bottom: 3rem;
+}
+
+#welcome> :nth-child(2) {
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    margin: 5% 0;
+}
+
 a,
 a:hover,
 a:link,
@@ -26,21 +37,29 @@ a:visited {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px 12px;
     justify-content: center;
 }
 
 .navbar__menu {
     display: flex;
     list-style: none;
+    margin: 0;
+    margin-top: 30%;
+}
+
+.navbar__logo {
+    display: none;
 }
 
 .navbar__menu li {
     padding: 1rem 4rem;
     background-color: #FCF6F5;
     border: 1px solid white;
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 30px;
+    border-radius: 0.2rem;
+    margin: 0 1px;
+    text-align: center;
 }
 
 .navbar__togglebutton {
@@ -49,24 +68,6 @@ a:visited {
     top: 5px;
     font-size: 30px;
     display: none;
-}
-
-img {
-    height: 300;
-    width: 150;
-}
-
-#welcome {
-    padding-bottom: 3rem;
-    /* background-color: gray; */
-}
-
-#welcome> :nth-child(2) {
-    font-size: 50px;
-    width: auto;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 30px;
 }
 
 .video_content {
@@ -132,10 +133,19 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 1180px) {
-    .navbar__menu li {
-        font-size: 1rem;
-        padding: 0.5rem 4rem;
+@media screen and (max-width: 1543px) {
+    .navbar__menu li{
+        font-size: 1.2rem;
+        padding: 0.8rem 3.5rem;
+    }
+
+    .desc{
+        font-size: 5.5rem;
+    }
+
+    .sec2{
+        padding-bottom: 60px;
+        font-size: 4rem;
     }
 
     #lastSection {
@@ -144,13 +154,41 @@ img {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1310px) {
+    .navbar__menu li{
+        padding: 0.6rem 3rem;
+        font-size: 1rem;
+    }
+
+    .desc{
+        font-size: 4rem;
+    }
+
+    .sec2{
+        padding-bottom: 60px;
+        font-size: 2.5rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 1100px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
         position: relative;
         padding: 0px;
     }
+
+    .desc{
+        font-size: 3rem;
+    }
+
+    .sec2{
+        padding-bottom: 60px;
+        font-size: 1.5rem;
+    }
+
 
     .navbar__logo {
         display: block;
@@ -164,6 +202,7 @@ img {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin: 0;
     }
 
     .navbar__menu li {
@@ -171,7 +210,9 @@ img {
         text-align: center;
         padding: 10px 0px;
         margin-right: 50px;
-        font-size: 1.7rem;
+        line-height: 20px;
+        border-radius: 0;
+        margin: 0;
     }
 
     .navbar__togglebutton {
@@ -183,10 +224,7 @@ img {
     }
 
     #welcome> :nth-child(2) {
-        font-size: 50px;
-        width: auto;
-        height: auto;
-        padding-bottom: 30px;
+        font-size: 2rem;
     }
 
     #lastSection {
@@ -196,6 +234,21 @@ img {
     }
 }
 
+@media screen and (max-width: 600px) {
+    
+
+    .desc{
+        font-size: 2.5rem;
+    }
+
+    .sec2{
+        padding-bottom: 60px;
+        font-size: 1rem;
+    }
+
+    
+}
+
 
 #sec2,#sec3,#sec4 {
     padding-top: 100px;
@@ -203,14 +256,12 @@ img {
     padding-right: 20px;
 }
 
-.sec2{
+/* .sec2{
     padding-bottom: 60px;
-}
+    font-size: 4px;
+} */
 
-.desc{
-    font-size: 4rem;
-    
-}
+
 
 .down {
     margin-top: 10px;
