@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #7b9acc;
+    /* background-color: #7b9acc; */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -91,7 +91,7 @@ a:visited {
 #lastSection {
     position: relative;
     padding: 80px 0px 0px;
-    background-color: gray;
+    background-color: lightgray;
     list-style: none;
     width: 100%;
 }
@@ -143,6 +143,26 @@ a:visited {
     margin-top: 10px;
 }
 
+
+#welcome{
+    background-image: url(../img/section1.png);
+    background-size: contain;
+}
+
+#sec2{
+    background-image: url(../img/section2.png);
+    background-size: contain;
+}
+
+#sec3{
+    background-image: url(../img/section3.png);
+    background-size: contain;
+}
+
+#sec4{
+    background-image: url(../img/section4.png);
+    background-size: contain;
+}
 
 @media screen and (max-width: 1543px) {
     .navbar__menu li{
