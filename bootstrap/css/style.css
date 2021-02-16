@@ -106,7 +106,12 @@ img {
 }
 .links li a { display:block; }
 .links li a img { width:100%; }
-    
+
+.library {
+    width: auto;
+    height: auto;
+}
+
 @media screen and (max-width: 960px) {
     .navbar {
         flex-direction: column;
@@ -150,9 +155,4 @@ img {
         height: auto;
         padding-bottom: 30px;
     }
-}
-
-.library {
-    width: 650px;
-    height: 9000px;
 }
