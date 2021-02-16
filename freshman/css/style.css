@@ -197,8 +197,10 @@ img {
 }
 
 
-#sec2,#sec3 {
+#sec2,#sec3,#sec4 {
     padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sec2{
@@ -206,5 +208,15 @@ img {
 }
 
 .desc{
-    font-size: 50px;
+    font-size: 4rem;
+    
 }
+
+.down {
+    margin-top: 10px;
+}
+
+
+
+
+
